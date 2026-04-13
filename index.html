@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewels of Asia - Futuristic Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="grid-overlay"></div>
+        <div class="floating-particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 100 100" class="logo-svg">
+                        <polygon points="50,5 61,40 98,40 68,65 79,100 50,75 21,100 32,65 2,40 39,40" class="logo-shape"/>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-name">JEWELS OF ASIA</span>
+                    <span class="brand-tagline">Exquisite Gemstones</span>
+                </div>
+            </div>
+
+            <!-- Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </button>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">
+                        <span class="link-bg"></span>
+                        <span class="link-text">HOME</span>
+                        <span class="link-glow"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <span class="link-bg"></span>
+                        <span class="link-text">ABOUT US</span>
+                        <span class="link-glow"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#collections" class="nav-link">
+                        <span class="link-bg"></span>
+                        <span class="link-text">COLLECTIONS</span>
+                        <span class="link-glow"></span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#gemstones" class="nav-link">
+                        <span class="link-bg"></span>
+                        <span class="link-text">GEMSTONES</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <span class="link-glow"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#ruby">Ruby</a></li>
+                        <li><a href="#sapphire">Sapphire</a></li>
+                        <li><a href="#emerald">Emerald</a></li>
+                        <li><a href="#topaz">Topaz</a></li>
+                        <li><a href="#tourmaline">Tourmaline</a></li>
+                        <li><a href="#spinel">Spinel</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">
+                        <span class="link-bg"></span>
+                        <span class="link-text">SERVICES</span>
+                        <span class="link-glow"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certification" class="nav-link">
+                        <span class="link-bg"></span>
+                        <span class="link-text">CERTIFICATION</span>
+                        <span class="link-glow"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <span class="link-bg"></span>
+                        <span class="link-text">CONTACT</span>
+                        <span class="link-glow"></span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- CTA Button -->
+            <div class="nav-cta">
+                <a href="#inquiry" class="cta-button">
+                    <span class="btn-text">GET QUOTE</span>
+                    <span class="btn-glow"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">PRECIOUS</span>
+                <span class="title-line highlight">GEMSTONES</span>
+                <span class="title-line">FROM ASIA</span>
+            </h1>
+            <p class="hero-subtitle">Experience the future of luxury gemstone trading</p>
+            <div class="hero-buttons">
+                <a href="#collections" class="hero-btn primary">EXPLORE COLLECTION</a>
+                <a href="#contact" class="hero-btn secondary">CONTACT US</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="gem-display">
+                <div class="gem-ring"></div>
+                <div class="gem-ring"></div>
+                <div class="gem-ring"></div>
+                <div class="gem-center"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
